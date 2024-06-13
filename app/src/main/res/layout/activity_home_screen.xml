@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreenActivity"
+    android:orientation="vertical"
+    android:background="#A6000000"
+    >
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:drawableTop="@drawable/ic_home"
+
+            android:inputType="textCapSentences"
+            android:text="home"
+
+            android:textColor="@color/tiktok_white"
+            android:textSize="16dp" />
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:drawableTop="@drawable/ic_search"
+
+            android:inputType="textCapSentences"
+            android:text="Search"
+
+            android:textColor="@color/tiktok_white"
+            android:textSize="16dp" />
+
+
+
+            <Button
+                android:padding="18dp"
+
+                android:layout_width="52dp"
+                android:layout_height="32dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="1dp"
+                android:background="@drawable/plus"
+
+                android:text="+"
+                android:textSize="16dp"
+
+                android:textColor="@color/tiktok_black" />
+
+
+        <Button
+
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_inbox"
+
+            android:inputType="textCapSentences"
+            android:text="inbox"
+
+            android:textColor="@color/tiktok_white"
+            android:textSize="16dp" />
+
+        <Button
+
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_profile"
+
+            android:inputType="textCapSentences"
+            android:text="profile"
+
+            android:textColor="@color/tiktok_white"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</LinearLayout>

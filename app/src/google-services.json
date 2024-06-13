@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "919203976999",
+    "project_id": "wowapp-c7f7c",
+    "storage_bucket": "wowapp-c7f7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919203976999:android:672fd4d5b90b52f112bb02",
+        "android_client_info": {
+          "package_name": "com.wowapp.wow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEO1nT1NKyqJLmOrcBf2psGn6gyy_ERgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
